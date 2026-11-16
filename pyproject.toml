@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-from-scratch"
+version = "0.1.0"
+description = "Retrieval augmented generation built from first principles: chunking, a numpy vector index, BM25, hybrid fusion, reranking and grounded answers with citations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "numpy>=1.26",
+    "sentence-transformers>=3.0",
+    "anthropic>=2.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+rag = "rag.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rag*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

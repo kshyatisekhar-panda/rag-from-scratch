@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.pytest_cache/
+.env
+
+# Downloaded corpus and built index. Recreate with scripts/fetch_fastapi_docs.py and `rag ingest`.
+data/
+index/
+
+# Editor and assistant config
+.vscode/
+.idea/
+.claude/

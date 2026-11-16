@@ -1,0 +1,38 @@
+{"question": "How do I make the user id in the URL path an integer instead of a string?", "relevant": ["tutorial/path-params.md"]}
+{"question": "How can I make a query parameter optional with a default value?", "relevant": ["tutorial/query-params.md"]}
+{"question": "How do I reject a search string longer than 50 characters?", "relevant": ["tutorial/query-params-str-validations.md"]}
+{"question": "How do I make sure a numeric path parameter is greater than zero?", "relevant": ["tutorial/path-params-numeric-validations.md"]}
+{"question": "How do I receive a JSON request body and validate it with a Pydantic model?", "relevant": ["tutorial/body.md"]}
+{"question": "How do I return a 404 error when an item does not exist?", "relevant": ["tutorial/handling-errors.md"]}
+{"question": "My React frontend on localhost:3000 is blocked from calling the API. How do I allow it?", "relevant": ["tutorial/cors.md"]}
+{"question": "How do I send an email after returning the response, without making the client wait?", "relevant": ["tutorial/background-tasks.md"]}
+{"question": "How do I accept an uploaded file from the client?", "relevant": ["tutorial/request-files.md"]}
+{"question": "How do I open a database session per request and make sure it is closed afterwards?", "relevant": ["tutorial/dependencies/dependencies-with-yield.md", "tutorial/sql-databases.md"]}
+{"question": "How do I hash passwords and issue JWT access tokens?", "relevant": ["tutorial/security/oauth2-jwt.md"]}
+{"question": "How do I split a large app into several files?", "relevant": ["tutorial/bigger-applications.md"]}
+{"question": "How do I stop the password field from being returned in the response?", "relevant": ["tutorial/response-model.md", "tutorial/extra-models.md"]}
+{"question": "How do I make a create endpoint respond with status 201?", "relevant": ["tutorial/response-status-code.md"]}
+{"question": "How do I write tests for my endpoints?", "relevant": ["tutorial/testing.md"]}
+{"question": "How do I serve images and CSS files from a folder?", "relevant": ["tutorial/static-files.md"]}
+{"question": "How do I add a header with the processing time to every response?", "relevant": ["tutorial/middleware.md"]}
+{"question": "Should my path operation functions be async def or plain def?", "relevant": ["async.md"]}
+{"question": "How do I load a machine learning model once when the app starts and release it at shutdown?", "relevant": ["advanced/events.md"]}
+{"question": "How do I build a Docker image for my app?", "relevant": ["deployment/docker.md"]}
+{"question": "How do I run several worker processes in production?", "relevant": ["deployment/server-workers.md"]}
+{"question": "How do I read configuration from environment variables with Pydantic?", "relevant": ["advanced/settings.md"]}
+{"question": "How do I keep a two way realtime connection open with the browser?", "relevant": ["advanced/websockets.md"]}
+{"question": "How do I replace a dependency with a fake one during tests?", "relevant": ["advanced/testing-dependencies.md"]}
+{"question": "How do I read fields submitted from an HTML form?", "relevant": ["tutorial/request-forms.md"]}
+{"question": "How do I set a cookie on the response?", "relevant": ["advanced/response-cookies.md"]}
+{"question": "How do I read the User-Agent request header?", "relevant": ["tutorial/header-params.md"]}
+{"question": "How do I add tags and a summary to an endpoint so they show up in the docs?", "relevant": ["tutorial/path-operation-configuration.md"]}
+{"question": "My app runs behind Nginx under the /api/v1 prefix and the docs page breaks. What do I configure?", "relevant": ["advanced/behind-a-proxy.md"]}
+{"question": "How do I apply one dependency to every route in the application?", "relevant": ["tutorial/dependencies/global-dependencies.md"]}
+{"question": "How do I turn a Pydantic model with a datetime into something I can store as JSON?", "relevant": ["tutorial/encoder.md"]}
+{"question": "How do I partially update an item with PATCH and only change the fields that were sent?", "relevant": ["tutorial/body-updates.md"]}
+{"question": "How do I protect an endpoint with a username and password prompt in the browser?", "relevant": ["advanced/security/http-basic-auth.md"]}
+{"question": "How do I stream a large file back to the client without loading it into memory?", "relevant": ["advanced/custom-response.md", "advanced/stream-data.md"]}
+{"question": "How do I show example request data in the interactive API docs?", "relevant": ["tutorial/schema-extra-example.md"]}
+{"question": "Can I mount an existing Flask app inside FastAPI?", "relevant": ["advanced/wsgi.md"]}
+{"question": "How do I render HTML pages with Jinja2?", "relevant": ["advanced/templates.md"]}
+{"question": "How do I get the currently logged in user inside an endpoint?", "relevant": ["tutorial/security/get-current-user.md"]}
